@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # Bash function to quickly check NS records, registrar, status by domain name and filter briefly only by needed strings (in my opinion) 
 # then will check serial numbers answer from authoritative nameservers, A record and PTR of this IP address,
