@@ -17,7 +17,7 @@ mx() {
            done  
         done
             
-        echo -e "Do you want to sent ICMP request with command: "ping -c 3 "$MX"" [y/n]: "
+        echo -e "Do you want to send ICMP request with command: "ping -c 3 "$MX"" [y/n]: "
         
         read input
 
