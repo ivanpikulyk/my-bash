@@ -2,7 +2,7 @@
 
 #==================================== Version without monitoring agents ===========================================
 #This little script will check status of services in GNU/Linux distributions which are used systemd — systemctl, 
-#and if some of them inactive will try to start them
+#and if some of them inactive will try to start them.
 
 #Color_Off='\033[0m'       # Text Reset
 
