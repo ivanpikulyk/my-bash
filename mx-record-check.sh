@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This function will check MX records of domain name, IP address of MX`s record and PTR`s of those IP`s.    
+# This function will check MX records of domain name, IP address of each MX record and PTR of those IP`s.    
 
 mx() {
 
