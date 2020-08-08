@@ -1,8 +1,7 @@
 #!/bin/bash
 
-# Bash function to quickly check NS records, registrar, status by domain name and filter briefly only by needed strings (in my opinion) 
-# then will check serial numbers answer from authoritative nameservers, A record and PTR of this IP address,
-# sends four ICMP request and in the end look with headers 
+# Bash function which check NS records, and filter briefly only needed strings like domain registrar and status (in my opinion) 
+# then will check serial numbers from authoritative nameservers, A record and PTR of this IP, sends ICMP request and in the end check headers. 
 
 #Color_Off='\033[0m'       # Text Reset
 
