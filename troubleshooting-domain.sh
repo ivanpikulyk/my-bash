@@ -16,7 +16,7 @@
 #White='\033[0;37m'        # White
 
 ws() {
-echo -e "
+
 echo -e "\e[91m------------------------------------------------------------------------------------------------------------------------------\e[0m"
 echo -e "\e[91mwhois $1 | grep "status\|registrar\|nserver\|Domain Status\|Registrar\|Name Server\|Status\|Created\|Last Updated\|Expiration\|Glue Records\|ip-address"\e[0m"
 whois $1 | grep "status\|registrar\|nserver\|Domain Status\|Registrar\|Name Server\|Status\|Created\|Last Updated\|Expiration\|Glue Records\|ip-address"
